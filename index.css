@@ -1,0 +1,55 @@
+/* Awal Style Navbar */
+.navbar-light .navbar-toggler {
+    border-color: white
+}
+.navbar{
+    background-color: #2596be;
+}
+/* Akhir Style Navbar */
+
+/* Awal Style Jumbotron */
+.warna-bg{
+    background: linear-gradient(to right, rgba(52, 163, 236, 0.3), rgba(237, 187, 241, 0.3));
+}
+.jumbotron .btn{
+    background-color: #33ccff;
+}
+/* Akhir Style Jumbotron
+
+/* Awal Style Produk */
+.card{
+    transition-duration: 0.4s;
+}
+.card img{
+    width: 100%;
+}
+.card:hover{
+    color: #2596be;
+    transition-duration: 0.4s;
+}
+/* Akhir Style Produk */
+
+/* Awal Style Tentang & Sejarah Perusahaan */
+.about-img {
+    width: 100%;
+}
+.isian{
+    font-family: Verdana, sans-serif;
+    transition-duration: 0.4s;
+}
+@media screen and (min-width: 611px) {
+    .isian:hover{
+        transform: scale(1.1);
+        transition-duration: 0.6s;
+        color: whitesmoke;
+        background-color: #efa500;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
+
+/* Awal Style Footer */
+.bg-footer{
+    background-color: #2596be;
+}
+/* Akhir Style Footer */
